@@ -1,0 +1,84 @@
+baseURL: "https://512kb.uguraba.com"
+title: 512 KB
+paginate: 5
+theme: PaperMod
+
+DefaultContentLanguage: "tr"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 512 KB
+  keywords: [Teknoloji, Yazılım]
+  author: İbrahim Uğur ABA
+  DateFormat: "1 January 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "512 KB"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "512 KB"
+    Content: Teknoloji ve yazılımla ilgili öğrendiğim bilgileri daha sonrasında tekrar okumak için not alıyorum. Her bir yazı için 512 KB'lık bir dosya boyutu limiti uygulayarak, [512 KB Club](https://www.512kb.club)'a uygun olarak bir içerik oluşturuyorum.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/uguraba"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/4354702/%c4%b0brahim-u%c4%9fur-aba"
+    - name: email
+      url: "mailto:iuaba@uguraba.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: bilgi
+      name: Bilgi
+      url: /bilgi/
+      weight: 10
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
