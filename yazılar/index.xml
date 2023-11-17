@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yazılars on İbrahim Uğur ABA</title>
+    <link>/yaz%C4%B1lar/</link>
+    <description>Recent content in Yazılars on İbrahim Uğur ABA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-TR</language>
+    <copyright>© Her hakkı saklıdır.</copyright>
+    <lastBuildDate>Fri, 17 Nov 2023 10:00:56 +0300</lastBuildDate><atom:link href="/yaz%C4%B1lar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Site Güncellemesi</title>
+      <link>/yaz%C4%B1lar/siteg%C3%BCncellemesi/</link>
+      <pubDate>Fri, 17 Nov 2023 10:00:56 +0300</pubDate>
+      
+      <guid>/yaz%C4%B1lar/siteg%C3%BCncellemesi/</guid>
+      <description>&lt;p&gt;Herkese merhaba! Bir süredir kişisel sitemi güncellemeyi planlıyordum.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
